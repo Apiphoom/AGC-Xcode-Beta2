@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEBB3BCE22E706D3000BE4E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB3BCD22E706D3000BE4E6 /* AppDelegate.swift */; };
+		CEBB3BD222E706D3000BE4E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB3BD122E706D3000BE4E6 /* ViewController.swift */; };
+		CEBB3BD522E706D3000BE4E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB3BD322E706D3000BE4E6 /* Main.storyboard */; };
+		CEBB3BD722E706D6000BE4E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBB3BD622E706D6000BE4E6 /* Assets.xcassets */; };
+		CEBB3BDA22E706D6000BE4E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEBB3BD822E706D6000BE4E6 /* LaunchScreen.storyboard */; };
+		CEBB3BE522E706D6000BE4E6 /* SPIM_AGCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB3BE422E706D6000BE4E6 /* SPIM_AGCTests.swift */; };
+		CEBB3BF022E706D6000BE4E6 /* SPIM_AGCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB3BEF22E706D6000BE4E6 /* SPIM_AGCUITests.swift */; };
+		CEDD26E622E70C8F00C077A6 /* Checkinternet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDD26E522E70C8F00C077A6 /* Checkinternet.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEBB3BE122E706D6000BE4E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBB3BC222E706D3000BE4E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBB3BC922E706D3000BE4E6;
+			remoteInfo = "SPIM AGC";
+		};
+		CEBB3BEC22E706D6000BE4E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEBB3BC222E706D3000BE4E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEBB3BC922E706D3000BE4E6;
+			remoteInfo = "SPIM AGC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEBB3BCA22E706D3000BE4E6 /* SPIM AGC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SPIM AGC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB3BCD22E706D3000BE4E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEBB3BD122E706D3000BE4E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEBB3BD422E706D3000BE4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEBB3BD622E706D6000BE4E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEBB3BD922E706D6000BE4E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEBB3BDB22E706D6000BE4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBB3BE022E706D6000BE4E6 /* SPIM AGCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPIM AGCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB3BE422E706D6000BE4E6 /* SPIM_AGCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPIM_AGCTests.swift; sourceTree = "<group>"; };
+		CEBB3BE622E706D6000BE4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEBB3BEB22E706D6000BE4E6 /* SPIM AGCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SPIM AGCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEBB3BEF22E706D6000BE4E6 /* SPIM_AGCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SPIM_AGCUITests.swift; sourceTree = "<group>"; };
+		CEBB3BF122E706D6000BE4E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEDD26E522E70C8F00C077A6 /* Checkinternet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkinternet.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEBB3BC722E706D3000BE4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB3BDD22E706D6000BE4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB3BE822E706D6000BE4E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEBB3BC122E706D3000BE4E6 = {
+			isa = PBXGroup;
+			children = (
+				CEBB3BCC22E706D3000BE4E6 /* SPIM AGC */,
+				CEBB3BE322E706D6000BE4E6 /* SPIM AGCTests */,
+				CEBB3BEE22E706D6000BE4E6 /* SPIM AGCUITests */,
+				CEBB3BCB22E706D3000BE4E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEBB3BCB22E706D3000BE4E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB3BCA22E706D3000BE4E6 /* SPIM AGC.app */,
+				CEBB3BE022E706D6000BE4E6 /* SPIM AGCTests.xctest */,
+				CEBB3BEB22E706D6000BE4E6 /* SPIM AGCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEBB3BCC22E706D3000BE4E6 /* SPIM AGC */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB3BCD22E706D3000BE4E6 /* AppDelegate.swift */,
+				CEBB3BD122E706D3000BE4E6 /* ViewController.swift */,
+				CEDD26E522E70C8F00C077A6 /* Checkinternet.swift */,
+				CEBB3BD322E706D3000BE4E6 /* Main.storyboard */,
+				CEBB3BD622E706D6000BE4E6 /* Assets.xcassets */,
+				CEBB3BD822E706D6000BE4E6 /* LaunchScreen.storyboard */,
+				CEBB3BDB22E706D6000BE4E6 /* Info.plist */,
+			);
+			path = "SPIM AGC";
+			sourceTree = "<group>";
+		};
+		CEBB3BE322E706D6000BE4E6 /* SPIM AGCTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB3BE422E706D6000BE4E6 /* SPIM_AGCTests.swift */,
+				CEBB3BE622E706D6000BE4E6 /* Info.plist */,
+			);
+			path = "SPIM AGCTests";
+			sourceTree = "<group>";
+		};
+		CEBB3BEE22E706D6000BE4E6 /* SPIM AGCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEBB3BEF22E706D6000BE4E6 /* SPIM_AGCUITests.swift */,
+				CEBB3BF122E706D6000BE4E6 /* Info.plist */,
+			);
+			path = "SPIM AGCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEBB3BC922E706D3000BE4E6 /* SPIM AGC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB3BF422E706D6000BE4E6 /* Build configuration list for PBXNativeTarget "SPIM AGC" */;
+			buildPhases = (
+				CEBB3BC622E706D3000BE4E6 /* Sources */,
+				CEBB3BC722E706D3000BE4E6 /* Frameworks */,
+				CEBB3BC822E706D3000BE4E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SPIM AGC";
+			productName = "SPIM AGC";
+			productReference = CEBB3BCA22E706D3000BE4E6 /* SPIM AGC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEBB3BDF22E706D6000BE4E6 /* SPIM AGCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB3BF722E706D6000BE4E6 /* Build configuration list for PBXNativeTarget "SPIM AGCTests" */;
+			buildPhases = (
+				CEBB3BDC22E706D6000BE4E6 /* Sources */,
+				CEBB3BDD22E706D6000BE4E6 /* Frameworks */,
+				CEBB3BDE22E706D6000BE4E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBB3BE222E706D6000BE4E6 /* PBXTargetDependency */,
+			);
+			name = "SPIM AGCTests";
+			productName = "SPIM AGCTests";
+			productReference = CEBB3BE022E706D6000BE4E6 /* SPIM AGCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEBB3BEA22E706D6000BE4E6 /* SPIM AGCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEBB3BFA22E706D6000BE4E6 /* Build configuration list for PBXNativeTarget "SPIM AGCUITests" */;
+			buildPhases = (
+				CEBB3BE722E706D6000BE4E6 /* Sources */,
+				CEBB3BE822E706D6000BE4E6 /* Frameworks */,
+				CEBB3BE922E706D6000BE4E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEBB3BED22E706D6000BE4E6 /* PBXTargetDependency */,
+			);
+			name = "SPIM AGCUITests";
+			productName = "SPIM AGCUITests";
+			productReference = CEBB3BEB22E706D6000BE4E6 /* SPIM AGCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEBB3BC222E706D3000BE4E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Apiphoom Chuenchompoo";
+				TargetAttributes = {
+					CEBB3BC922E706D3000BE4E6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					CEBB3BDF22E706D6000BE4E6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CEBB3BC922E706D3000BE4E6;
+					};
+					CEBB3BEA22E706D6000BE4E6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = CEBB3BC922E706D3000BE4E6;
+					};
+				};
+			};
+			buildConfigurationList = CEBB3BC522E706D3000BE4E6 /* Build configuration list for PBXProject "SPIM AGC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEBB3BC122E706D3000BE4E6;
+			productRefGroup = CEBB3BCB22E706D3000BE4E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEBB3BC922E706D3000BE4E6 /* SPIM AGC */,
+				CEBB3BDF22E706D6000BE4E6 /* SPIM AGCTests */,
+				CEBB3BEA22E706D6000BE4E6 /* SPIM AGCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEBB3BC822E706D3000BE4E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB3BDA22E706D6000BE4E6 /* LaunchScreen.storyboard in Resources */,
+				CEBB3BD722E706D6000BE4E6 /* Assets.xcassets in Resources */,
+				CEBB3BD522E706D3000BE4E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB3BDE22E706D6000BE4E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB3BE922E706D6000BE4E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEBB3BC622E706D3000BE4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB3BD222E706D3000BE4E6 /* ViewController.swift in Sources */,
+				CEBB3BCE22E706D3000BE4E6 /* AppDelegate.swift in Sources */,
+				CEDD26E622E70C8F00C077A6 /* Checkinternet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB3BDC22E706D6000BE4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB3BE522E706D6000BE4E6 /* SPIM_AGCTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEBB3BE722E706D6000BE4E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB3BF022E706D6000BE4E6 /* SPIM_AGCUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEBB3BE222E706D6000BE4E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBB3BC922E706D3000BE4E6 /* SPIM AGC */;
+			targetProxy = CEBB3BE122E706D6000BE4E6 /* PBXContainerItemProxy */;
+		};
+		CEBB3BED22E706D6000BE4E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEBB3BC922E706D3000BE4E6 /* SPIM AGC */;
+			targetProxy = CEBB3BEC22E706D6000BE4E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEBB3BD322E706D3000BE4E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBB3BD422E706D3000BE4E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEBB3BD822E706D6000BE4E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEBB3BD922E706D6000BE4E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEBB3BF222E706D6000BE4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEBB3BF322E706D6000BE4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEBB3BF522E706D6000BE4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQU5GMS3QC;
+				INFOPLIST_FILE = "SPIM AGC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Api-Development.SPIM-AGC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEBB3BF622E706D6000BE4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQU5GMS3QC;
+				INFOPLIST_FILE = "SPIM AGC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Api-Development.SPIM-AGC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEBB3BF822E706D6000BE4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQU5GMS3QC;
+				INFOPLIST_FILE = "SPIM AGCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Api-Development.SPIM-AGCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPIM AGC.app/SPIM AGC";
+			};
+			name = Debug;
+		};
+		CEBB3BF922E706D6000BE4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQU5GMS3QC;
+				INFOPLIST_FILE = "SPIM AGCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Api-Development.SPIM-AGCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SPIM AGC.app/SPIM AGC";
+			};
+			name = Release;
+		};
+		CEBB3BFB22E706D6000BE4E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQU5GMS3QC;
+				INFOPLIST_FILE = "SPIM AGCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Api-Development.SPIM-AGCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SPIM AGC";
+			};
+			name = Debug;
+		};
+		CEBB3BFC22E706D6000BE4E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DQU5GMS3QC;
+				INFOPLIST_FILE = "SPIM AGCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Api-Development.SPIM-AGCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SPIM AGC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEBB3BC522E706D3000BE4E6 /* Build configuration list for PBXProject "SPIM AGC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB3BF222E706D6000BE4E6 /* Debug */,
+				CEBB3BF322E706D6000BE4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBB3BF422E706D6000BE4E6 /* Build configuration list for PBXNativeTarget "SPIM AGC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB3BF522E706D6000BE4E6 /* Debug */,
+				CEBB3BF622E706D6000BE4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBB3BF722E706D6000BE4E6 /* Build configuration list for PBXNativeTarget "SPIM AGCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB3BF822E706D6000BE4E6 /* Debug */,
+				CEBB3BF922E706D6000BE4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEBB3BFA22E706D6000BE4E6 /* Build configuration list for PBXNativeTarget "SPIM AGCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBB3BFB22E706D6000BE4E6 /* Debug */,
+				CEBB3BFC22E706D6000BE4E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEBB3BC222E706D3000BE4E6 /* Project object */;
+}
